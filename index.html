@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/scripts.js" defer="defer"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Dice Game</h1>
+        <div id="game-section">
+            <div class="scores">
+                <div id="player-score">Player: 0</div>
+                <div id="computer-score">Computer: 0</div>
+            </div>
+            <div class="dice">
+                <div id="player-dice" class="dice-container">
+                    <h2>Player</h2>
+                    <img class="die" id="player-die1" src="Images\dice-six-faces-one.png" alt="die"> 
+                    <img class="die" id="player-die2" src="Images\dice-six-faces-one.png" alt="die"> 
+                </div>
+                <div id="computer-dice" class="dice-container">
+                    <h2>Computer</h2>
+                    <img class="die" id="computer-die1" src="Images\dice-six-faces-one.png" alt="die">
+                    <img class="die" id="computer-die2" src="Images\dice-six-faces-one.png" alt="die">
+                </div>
+            </div>
+            <button id="roll-dice">Roll Dice</button>
+        </div>
+        <div id="game-result" class="hidden">
+            <h2 id="result-text"></h2>
+        </div>
+        <button id="results" class="hidden">Results</button>
+        <button id="reset-game" class="hidden">Reset Game</button>
+    </div>
+</body>
+</html>
+
+
+
